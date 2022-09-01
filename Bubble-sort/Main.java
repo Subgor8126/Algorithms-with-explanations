@@ -24,6 +24,7 @@ public class Main {
             swapped = false;
             // swapped is set to false whenever the 'i' loop runs
             for (int j = 1; j < arr.length - i; j++) {
+                // j<arr.length-i makes sure that only the unsorted part of the array is checked for possible swaps, hence reducing the number of comparisons.
                 // j<=arr.length-i-1 will also do the job
 //                checks++;
                 if(arr[j]<arr[j-1]){
