@@ -9,7 +9,10 @@ public class Main {
         System.out.println(Arrays.toString(arr));
 
     }
-    //Bubble sort :- I call it wave sort
+    // Bubble sort :- I call it wave sort
+    // Bubble sort has worst-case time complexity of O(n^2).
+    // In best case, it will make n-1 comparisons, where n=size of the array.
+    // It is an inplace sorting algorithm, i.e no need to create a new array or copy existing array.
     static void waveSort(int[] arr){
         // i and j are supposed to represent the indices of the array
         // i counts the passes and j does the comparisons and swaps
